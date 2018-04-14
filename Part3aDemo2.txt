@@ -1,0 +1,63 @@
+Script started on Fri 13 Apr 2018 09:41:40 PM CDT
+]0;tian4@js-17-251:~/HW3[?1034h[js-17-251] tian4 ~/HW3-->gcc [K[K[K[Kexitgcc -o part3a part3a.c[8Pemacs[C[C[C[C[C[C[C[C[C[8@gcc -o part3a[C[C[C[C[C[C[C[C[C
+[01m[Kpart3a.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kpart3a.c:41:3:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kposix_memalign[m[K’ from incompatible pointer type [enabled by default]
+   posix_memalign(&buf, pagesize, strlen(shellcode)+10);
+[01;32m[K   ^[m[K
+In file included from [01m[Kpart3a.c:3:0[m[K:
+[01m[K/usr/include/stdlib.h:502:12:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kchar **[m[K’
+ extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+[01;32m[K            ^[m[K
+]0;tian4@js-17-251:~/HW3[js-17-251] tian4 ~/HW3-->c[Kls
+[0m[38;5;34mBufferRedirectViaStack64.c[0m  [38;5;34mpart1.s[0m        [38;5;34mpart2.o[0m   [38;5;34mpart3a.c[0m         [38;5;27msubmitted[0m
+[38;5;34mpart1[0m                       [38;5;34mpart1.s~[0m       [38;5;34mpart2.s[0m   [38;5;34mpart3a.c~[0m
+[38;5;34mpart1Demo.txt[0m               [38;5;34mpart2[0m          [38;5;34mpart2.s~[0m  Part3aDemo1.txt
+[38;5;34mpart1.o[0m                     [38;5;34mpart2Demo.txt[0m  [38;5;34mpart3a[0m    Part3aDemo2.txt
+]0;tian4@js-17-251:~/HW3[js-17-251] tian4 ~/HW3-->git add .
+]0;tian4@js-17-251:~/HW3[js-17-251] tian4 ~/HW3-->git commit -m ''A's's'i'g'n'm'e't'3' 's'u'b'1'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <tian4@js-17-251.jetstream-cloud.org>) not allowed
+]0;tian4@js-17-251:~/HW3[js-17-251] tian4 ~/HW3-->git push origin master
+remote: Invalid username or password.
+fatal: Authentication failed for 'http://github.com/DamienTian/HW3.git/'
+]0;tian4@js-17-251:~/HW3[js-17-251] tian4 ~/HW3-->git push origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'http://github.com/DamienTian/HW3.git'
+]0;tian4@js-17-251:~/HW3[js-17-251] tian4 ~/HW3-->git push origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'http://github.com/DamienTian/HW3.git'
+]0;tian4@js-17-251:~/HW3[js-17-251] tian4 ~/HW3-->git init
+Reinitialized existing Git repository in /home/tian4/HW3/.git/
+]0;tian4@js-17-251:~/HW3[js-17-251] tian4 ~/HW3-->ls
+[0m[38;5;34mBufferRedirectViaStack64.c[0m  [38;5;34mpart1.s[0m        [38;5;34mpart2.o[0m   [38;5;34mpart3a.c[0m         [38;5;27msubmitted[0m
+[38;5;34mpart1[0m                       [38;5;34mpart1.s~[0m       [38;5;34mpart2.s[0m   [38;5;34mpart3a.c~[0m
+[38;5;34mpart1Demo.txt[0m               [38;5;34mpart2[0m          [38;5;34mpart2.s~[0m  Part3aDemo1.txt
+[38;5;34mpart1.o[0m                     [38;5;34mpart2Demo.txt[0m  [38;5;34mpart3a[0m    Part3aDemo2.txt
+]0;tian4@js-17-251:~/HW3[js-17-251] tian4 ~/HW3-->git add *
+]0;tian4@js-17-251:~/HW3[js-17-251] tian4 ~/HW3-->git commit -m ""i"n"i"t"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <tian4@js-17-251.jetstream-cloud.org>) not allowed
+]0;tian4@js-17-251:~/HW3[js-17-251] tian4 ~/HW3-->git remote[K[K[K[K[K[Kpush -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'http://github.com/DamienTian/HW3.git'
+]0;tian4@js-17-251:~/HW3[js-17-251] tian4 ~/HW3-->git push -u origin master[Kremote  add[1Padd[C[C[C origin http:\\
